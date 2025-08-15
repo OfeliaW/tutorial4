@@ -12,5 +12,4 @@ jobs:
          distribution: 'temurin'
          java-version: '11'  
       - name: Run Maven build
-      
         run: mvn clean test  
